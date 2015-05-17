@@ -1,0 +1,27 @@
+<Alloy>
+	<View layout="horizontal" top="100">
+		<View height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+			<ScrollView id="count" layout="vertical" height="100" width="100" scrollingEnabled="false" backgroundColor="#444">
+		        <Label class="number" text="01"/>
+		        <Label class="number" text="02"/>
+		        <Label class="number" text="03"/>
+		        <Label class="number" text="04"/>
+		        <Label class="number" text="05"/>
+		        <Label class="number" text="06"/>
+		        <Label class="number" text="07"/>
+		        <Label class="number" text="08"/>
+		        <Label class="number" text="09"/>
+		        <Label class="number" text="10"/>
+		        <Label class="number" text="11"/>
+		        <Label class="number" text="12"/>
+		    </ScrollView>
+		    <ImageView id="shader" height="100" width="100"/>
+		</View>
+	    <View  height="100" width="1"/>
+	    <View layout="vertical" height="100" width="50">
+	    	<Button class="countButton" title="+" onClick="increaseCount"/>
+	    	<View  height="1" width="50"/>
+	    	<Button class="countButton" title="-" onClick="decreaseCount"/>
+	    </View>
+    </View>
+</Alloy>

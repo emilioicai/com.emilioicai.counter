@@ -1,0 +1,16 @@
+".number": {
+	color: "#ddd",
+	font: {
+		fontSize: 30
+	}
+}
+
+".countButton":{
+	height: 50,
+	width: 50,
+	color: "#ddd",
+	backgroundColor: "#555",
+	font: {
+		fontSize: 30
+	}
+}
