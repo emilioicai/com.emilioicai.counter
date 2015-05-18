@@ -8,9 +8,6 @@ _.each($.count.children, function(child){
 });
 
 $.count.addEventListener('postlayout', function(){
-	Ti.API.info('contentHeight ' + $.count.contentHeight);
-	Ti.API.info('$.count.children.length ' + $.count.children.length);
-	Ti.API.info('Ti.Platform.displayCaps.dpi ' + Ti.Platform.displayCaps.dpi);
 	scrollUnit = (OS_IOS) ? numberHeight : numberHeight * (Ti.Platform.displayCaps.dpi / 160);
 	$.count.scrollTo(0, scrollUnit/2 + scrollUnit);
 });
