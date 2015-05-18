@@ -1,6 +1,7 @@
 # com.emilioicai.counter
 ## What is this?
 ![](screenshot.png?raw=true)
+
 This widget is a simple counter which allows the user to select an amount of items by tapping on the +/- buttons.
 ## Usage
 To include the widget in your app with Alloy just add this tag into your view:
