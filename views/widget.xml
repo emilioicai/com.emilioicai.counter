@@ -1,19 +1,21 @@
 <Alloy>
-	<View layout="horizontal" top="100">
+	<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" top="10">
 		<View height="Ti.UI.SIZE" width="Ti.UI.SIZE">
-			<ScrollView id="count" layout="vertical" height="100" width="100" scrollingEnabled="false" backgroundColor="#444">
-		        <Label class="number" text="01"/>
-		        <Label class="number" text="02"/>
-		        <Label class="number" text="03"/>
-		        <Label class="number" text="04"/>
-		        <Label class="number" text="05"/>
-		        <Label class="number" text="06"/>
-		        <Label class="number" text="07"/>
-		        <Label class="number" text="08"/>
-		        <Label class="number" text="09"/>
-		        <Label class="number" text="10"/>
-		        <Label class="number" text="11"/>
-		        <Label class="number" text="12"/>
+			<ScrollView id="count" layout="vertical" height="100" width="100" scrollingEnabled="false" backgroundColor="#1E8F7A">
+		        <Label class="number" text="" height="50"/>
+		        <Label class="number" text="01" height="50"/>
+		        <Label class="number" text="02" height="50"/>
+		        <Label class="number" text="03" height="50"/>
+		        <Label class="number" text="04" height="50"/>
+		        <Label class="number" text="05" height="50"/>
+		        <Label class="number" text="06" height="50"/>
+		        <Label class="number" text="07" height="50"/>
+		        <Label class="number" text="08" height="50"/>
+		        <Label class="number" text="09" height="50"/>
+		        <Label class="number" text="10" height="50"/>
+		        <Label class="number" text="11" height="50"/>
+		        <Label class="number" text="12" height="50"/>
+		        <Label class="number" text="" height="50"/>
 		    </ScrollView>
 		    <ImageView id="shader" height="100" width="100"/>
 		</View>

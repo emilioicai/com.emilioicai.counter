@@ -9,7 +9,7 @@
 	height: 50,
 	width: 50,
 	color: "#ddd",
-	backgroundColor: "#555",
+	backgroundColor: "#1E8F7A",
 	font: {
 		fontSize: 30
 	}
