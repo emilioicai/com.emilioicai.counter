@@ -1,28 +1,28 @@
 <Alloy>
 	<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" top="10">
 		<View height="Ti.UI.SIZE" width="Ti.UI.SIZE">
-			<ScrollView id="count" layout="vertical" height="100" width="100" scrollingEnabled="false" backgroundColor="#1E8F7A">
-		        <Label class="number" text="" height="50"/>
-		        <Label class="number" text="01" height="50"/>
-		        <Label class="number" text="02" height="50"/>
-		        <Label class="number" text="03" height="50"/>
-		        <Label class="number" text="04" height="50"/>
-		        <Label class="number" text="05" height="50"/>
-		        <Label class="number" text="06" height="50"/>
-		        <Label class="number" text="07" height="50"/>
-		        <Label class="number" text="08" height="50"/>
-		        <Label class="number" text="09" height="50"/>
-		        <Label class="number" text="10" height="50"/>
-		        <Label class="number" text="11" height="50"/>
-		        <Label class="number" text="12" height="50"/>
-		        <Label class="number" text="" height="50"/>
+			<ScrollView id="count" layout="vertical" height="90" width="90" scrollingEnabled="false" backgroundColor="#ddd" borderRadius="5">
+		        <Label class="number" text="" height="80"/>
+		        <Label class="number" text="01" height="80"/>
+		        <Label class="number" text="02" height="80"/>
+		        <Label class="number" text="03" height="80"/>
+		        <Label class="number" text="04" height="80"/>
+		        <Label class="number" text="05" height="80"/>
+		        <Label class="number" text="06" height="80"/>
+		        <Label class="number" text="07" height="80"/>
+		        <Label class="number" text="08" height="80"/>
+		        <Label class="number" text="09" height="80"/>
+		        <Label class="number" text="10" height="80"/>
+		        <Label class="number" text="11" height="80"/>
+		        <Label class="number" text="12" height="80"/>
+		        <Label class="number" text="" height="80"/>
 		    </ScrollView>
-		    <ImageView id="shader" height="100" width="100"/>
+<!-- 		    <ImageView id="shader" height="100" width="100"/> -->
 		</View>
-	    <View  height="100" width="1"/>
-	    <View layout="vertical" height="100" width="50">
+	    <View  height="100" width="3"/>
+	    <View layout="vertical" height="90" width="45">
 	    	<Button class="countButton" title="+" onClick="increaseCount"/>
-	    	<View  height="1" width="50"/>
+	    	<View  height="3" width="45"/>
 	    	<Button class="countButton" title="-" onClick="decreaseCount"/>
 	    </View>
     </View>
